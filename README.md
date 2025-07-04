@@ -1,14 +1,12 @@
 # Aeolus, a weather station made with Arduino UNO R4 Wi-Fi.
 
-## Overview
+## Overview and how it works
 
 Aeolus is a compact and versatile weather station built with the Arduino UNO R4 Wi-Fi. It's designed to capture and display essential weather parameters in real-time.
 
-## How it Works
-
 Aeolus operates by continuously reading data from its integrated sensors. The DHT22 provides temperature (in Celsius) and humidity (in percentage), while the BMP280 measures atmospheric pressure (in hectopascals) and calculates altitude (in meters). This data is then simultaneously displayed on the LCD and printed to the serial monitor every two seconds.
 
-## Hardware Setup
+## Hardware setup
 
 The project is assembled on a breadboard for easy prototyping. Here's how the components are connected:
 
@@ -25,7 +23,7 @@ The project is assembled on a breadboard for easy prototyping. Here's how the co
     * SCL connects to Arduino Analog Pin A5.
     * Powered by 5V.
 
-## Software Requirements
+## Software requirements
 
 Before uploading the sketch to your Arduino UNO R4 Wi-Fi, you'll need to install the following libraries in your Arduino IDE:
 
@@ -37,7 +35,7 @@ Before uploading the sketch to your Arduino UNO R4 Wi-Fi, you'll need to install
 > [!NOTE]
 > Adafruit Sensor is a dependency for the BMP280 library.
 
-## Getting Started
+## Getting started
 
 1.  Assemble the Hardware: follow the hardware setup instructions above to connect your components on a breadboard.
 2.  Install Libraries: open your Arduino IDE, go to `Sketch > Include Library > Manage Libraries...`, and search for and install the required libraries listed above.
