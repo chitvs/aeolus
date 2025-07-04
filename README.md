@@ -1,4 +1,4 @@
-# Aeolus, a weather station made with Arduino UNO R4 Wi-Fi.
+# Aeolus, a weather station made with Arduino UNO R4 Wi-Fi
 
 ## Overview and how it works
 
